@@ -98,7 +98,7 @@ void Graph<E>::ReadGraph()
 				counter = counter + degree[i];
 			}
 			nodePointer[num_nodes] = num_edges;
-			uint *outDegreeCounter  = new uint[num_nodes];
+			uint *outDegreeCounter  = new uint[num_nodes]();
 			uint location;  
 			for(uint i=0; i<num_edges; i++)
 			{
@@ -153,7 +153,7 @@ void Graph<E>::ReadGraph()
 				counter = counter + degree[i];
 			}
 			nodePointer[num_nodes] = num_edges;
-			uint *outDegreeCounter  = new uint[num_nodes];
+			uint *outDegreeCounter  = new uint[num_nodes]();
 			uint location;  
 			for(uint i=0; i<num_edges; i++)
 			{
@@ -295,7 +295,7 @@ void GraphPR<E>::ReadGraph()
 				counter = counter + degree[i];
 			}
 			nodePointer[num_nodes] = num_edges;
-			uint *outDegreeCounter  = new uint[num_nodes];
+			uint *outDegreeCounter  = new uint[num_nodes]();
 			uint location;  
 			for(uint i=0; i<num_edges; i++)
 			{
@@ -350,7 +350,7 @@ void GraphPR<E>::ReadGraph()
 				counter = counter + degree[i];
 			}
 			nodePointer[num_nodes] = num_edges;
-			uint *outDegreeCounter  = new uint[num_nodes];
+			uint *outDegreeCounter  = new uint[num_nodes]();
 			uint location;  
 			for(uint i=0; i<num_edges; i++)
 			{
