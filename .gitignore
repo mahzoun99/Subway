@@ -1,0 +1,12 @@
+**/*.o
+
+bfs-*
+cc-*
+pr-*
+sssp-*
+sswp-*
+
+tools/converter
+sample_data/
+
+example.*
